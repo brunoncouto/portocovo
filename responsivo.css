@@ -1,0 +1,21 @@
+/* Responsividade Mobile */
+@media screen and (max-width: 600px){
+    body{
+        width: 160vw;
+    }
+    .banner-titulo{
+        font-size: 3.2rem;
+    }
+    .acomodacao-lista-comodidades {
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width: 992px){
+    body{
+        width: 150vw;
+    }
+    .acomodacao-lista-comodidades {
+        flex-direction: column;
+    }
+}

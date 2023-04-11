@@ -1,0 +1,183 @@
+body{
+    color: #2e2e2e;
+    font-family: "Rubik", Sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+/* banner */
+.banner{
+    filter: brightness( 39% ) contrast( 118% ) saturate( 118% ) blur( 0px ) hue-rotate( 0deg );    
+    opacity: 1;
+    position: relative;
+    width: 100%;
+}
+.banner-imagem{
+    background: url('img/background.jpg') no-repeat center / cover;
+    width: 100%;
+    height: 300px;
+}
+
+.banner-titulo{
+    color: #FFFFFF;
+    font-size: 6.2rem;
+    font-weight: 600;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0,0,0,0.75);
+    text-transform: translate(-50%, -50%);
+    top: 50%;
+    width: 100%;
+}
+
+/*Acomodação*/
+.acomodacao{
+    height: 100vh;
+}
+.acomodacao-titulo{
+    font-size: 2.5rem;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.acomodacao-texto{
+    font-size: 1.5rem;
+    padding: 25px;
+    text-align: justify;
+}
+.acomodacao-subtitulo{
+    font-size: 1.65rem;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.acomodacao-lista-comodidades{
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0 10px;
+}
+.acomodacao-lista-comodidades-item{
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.lista-icone{
+    height: 32px;
+    width: 32px;
+    padding-right: 5px;
+}
+.lista-descricao{
+    font-size: 32px;
+}
+.acomodacao-botao{
+    background-color: #6194ce;
+    border-radius: 15px;
+    box-sizing: border-box;
+    height: 50px;
+    margin: 0 auto;
+    width: 200px;
+}
+.acomodacao-botao:hover{
+    background-color: #7DE27B;
+}
+.acomodacao-botao-texto{
+    color: #FFFFFF;
+    font-family: "Rubrik";
+    font-size: 1.5rem;
+    padding-top: .75rem;
+    text-align: center;    
+}
+.acomodacao-botao-texto-link{
+    font-family: "Rubik", Sans-serif;
+    text-decoration: none;
+}
+/*Acomodação - Galeria de Imagens*/
+.acomodacao-lista{
+    display: flex;
+    list-style: none;
+    width: auto;
+}
+.acomodacao-lista-item{
+    text-align: center;
+}
+.min{
+    padding: 10px;
+    width: 250px;
+}
+.acomodacao-lbox{
+    opacity: 0;
+    display: none;
+    visibility: hidden;
+}
+.acomodacao-lbox:target{
+    background: rgba(10,10,10,0.7);
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    visibility: visible;
+    width: 100%;
+}
+.acomodacao-lbox:target .box-img img{
+    opacity: 1;
+    transition: opacity 0.4s linear;
+}
+.btn{
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 40px;
+    position: absolute;
+    height: 50%;
+    text-decoration: none;
+    text-align: center;
+    width: 50%;
+}
+#prev{
+    left: 5%;
+    top:45%;
+}
+#next{
+    right: 5%;
+    top:45%;
+}
+#close{
+    right: 2%;
+    top:0%;
+}
+.box-img{
+    margin: 150px auto;
+    width: 1000px;
+}
+.box-img img{
+    height: 400px;
+    opacity: 0;
+    width: 400px;
+}
+/*Porto Covo*/
+.portocovo{
+    margin-top: 20px;
+}
+.portocovo-titulo{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.portocovo-lista{
+    display: flex;
+    list-style: none;
+    width: auto;
+}
+.portocovo-lista-item{
+    text-align: center;
+}
+.portocovo-min{
+    padding: 10px;
+    width:500px;
+}

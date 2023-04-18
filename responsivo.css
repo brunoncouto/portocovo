@@ -9,6 +9,21 @@
     .acomodacao-lista-comodidades {
         flex-direction: column;
     }
+    .box-img img{
+        position: absolute;
+        top: 35%;
+        right: 18%;
+    }
+    #prev{
+        left: -15%;
+    }
+    #next{
+        right: -15%;
+    }
+    #close{
+        right: -10%;
+        top: 30%;
+    }
 
 }
 @media screen and (max-width: 992px){
@@ -17,5 +32,18 @@
     }
     .acomodacao-lista-comodidades {
         flex-direction: column;
+    }
+    .box-img img{
+        position: absolute;
+        top: 35%;
+        left: 34%;
+    }
+    #next {
+        right: 3%;
+        top: 45%;
+    }
+    #close {
+        right: 2%;
+        top: 30%;
     }
 }
